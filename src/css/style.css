@@ -64,7 +64,7 @@ button:hover {
   position: relative;
   margin-left:  500px;
   margin-top: 300px;
-  padding: 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
   width: 880px;
   height:600px ;
   background: #89C444;
@@ -192,9 +192,9 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 input[type=submit] {
- 
-  padding: 0 100px;
-  height: 100px;
+ margin: -20px;
+  padding: 0 50px;
+  height: 70px;
   font-size: 30px;
   font-weight: bold;
   color: #D2CAB9;
@@ -241,4 +241,22 @@ input[type=submit]:active {
   font-size: 40px;
   border: #707070;
   font-size: "Segoe UI";
+}
+
+
+
+
+
+.errorpseudo{
+
+  color: violet;
+ font-size: 50px;
+ margin-top: 50px;
+ 
+}
+.errorlogin{
+
+color: blue;
+ font-size: 50px;
+ margin-top: 50px;
 }
