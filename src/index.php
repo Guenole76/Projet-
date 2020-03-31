@@ -34,7 +34,7 @@ if (isset($_POST))
     {
         if (strlen($_POST['password']) > 12)
         {
-            $sErrorLogin = 'password trop grand, 12 caractères max.';
+            $sErrorPassword = 'password trop grand, 12 caractères max.';
         }
         elseif (empty($_POST['password']))
         {
@@ -43,13 +43,13 @@ if (isset($_POST))
     }
     if (isset($_POST['password_confirm']))
     {
-        if (strlen($_POST['password_confirm']) > 255)
+        if (strlen($_POST['password_confirm']) > 12)
         {
-            $sErrorLogin = 'Password trop grand, 10 caractères max.';
+            $sErrorPasswordComfirm = 'Password trop grand, 12 caractères max.';
         }
         elseif (empty($_POST['password_confirm  ']))
         {
-            $sErrorPasswordComfirm = 'Mot de passe comfirmer vide.';
+            $sErrorPasswordComfirm = 'Password Comfirm vide.';
         }
     }
 }
