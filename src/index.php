@@ -38,7 +38,7 @@ if (isset($_POST))
         }
         elseif (empty($_POST['password']))
         {
-            $sErrorLogin = 'Password vide.';
+            $sErrorPassword = 'Password vide.';
         }
     }
     if (isset($_POST['password_confirm']))
@@ -49,7 +49,7 @@ if (isset($_POST))
         }
         elseif (empty($_POST['password_confirm  ']))
         {
-            $sErrorLogin = 'Mot de passe comfirmer vide.';
+            $sErrorPasswordComfirm = 'Mot de passe comfirmer vide.';
         }
     }
 }
