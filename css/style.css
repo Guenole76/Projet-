@@ -192,7 +192,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 input[type=submit] {
- margin: -20px;
+ margin-top: -20px;
   padding: 0 50px;
   height: 70px;
   font-size: 30px;
@@ -250,13 +250,43 @@ input[type=submit]:active {
 .errorpseudo{
 
   color: violet;
- font-size: 50px;
- margin-top: 50px;
- 
+ font-size: 55px;
+ position: absolute;
+ top: 53%;
+ left: 61%;
+ z-index: 1;
+
 }
+
 .errorlogin{
 
-color: blue;
- font-size: 50px;
- margin-top: 50px;
+  color: blue;
+  font-size: 50px;
+  position: absolute;
+  top: 40%;
+  left: 61%;
+  z-index: 1;
+
+}
+
+.errorpassword{
+
+  color: red;
+  font-size: 50px;
+  position: absolute;
+  top: 65%;
+  left: 61%;
+  z-index: 1;
+
+}
+
+.errorpasswordcomfirm{
+
+  color: black;
+  font-size: 50px;
+  position: absolute;
+  top: 80%;
+  left: 61%;
+  z-index: 1;
+
 }
