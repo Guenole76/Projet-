@@ -11,24 +11,22 @@ session_start();
 
     <form method="post" action="">
 	
-        <div class="titre">Adresse Mail</div>
-        <div class="inscri">
-            <input type="text" name="login" value="" placeholder=" Entrez votre Email" /></div>
-        <div class="titre">Pseudo</div>
-        <div class="inscri">
-            <input type="text" name="pseudo" value="" placeholder="Entrez un Pseudo" /></div>
-        <div class="titre">Mot de passe</div>
-        <div class="inscri">
+        <p class="titre">Adresse Mail</p>
+        <p class="inscri">
+            <input type="text" name="login" value="" placeholder=" Entrez votre Email" /></p>
+        <p class="titre">Pseudo</p>
+        <p class="inscri">
+            <input type="text" name="pseudo" value="" placeholder="Entrez un Pseudo" /></p>
+        <p class="titre">Mot de passe</p>
+        <p class="inscri">
             <input type="password" name="password" value="" placeholder="Entrez un Mot de passe" />
-        </div>
-        <div class="titre">Valider le mot de passe</div>
-        <div class="inscri">
+        </p>
+        <p class="titre">Valider le mot de passe</p>
+        <p class="inscri">
             <input type="password" name="password_confirm" value="" placeholder="resaissiser votre Mot de passe" />
-        </div>
+        </p>
  
-        <div class="submit">
-            <button type="submit" name="commit">Valider</button>
-        </div>
+        <p class="submit"><input type="submit" name="commit" value="Validé"></p>
     </form>
 </div>
 
